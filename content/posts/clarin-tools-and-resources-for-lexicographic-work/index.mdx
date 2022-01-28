@@ -51,9 +51,9 @@ Upon completion of this course, students will be able to
 This course requires basic knowledge of Lexicography, which can be acquired from the **Introduction to Dictionaries** and the **Introduction to Corpus-Based Lexicographic Practice** courses.
 In addition to this, we recommend doing the course **Modeling Dictionaries in OntoLex-Lemon** before starting Part 2 of this course. Finally, if you are interested in learning more about the topics of Part 1 of this course, we suggest continuing with **Lexicography in the Age of Open Data**, and **Standards for Representing Lexical Data: An Overview**.
 
-## The CLARIN infrastructure
+# The CLARIN infrastructure
 
-### What is CLARIN
+## What is CLARIN
 
 CLARIN stands for "Common Language Resources and Technology Infrastructure". It is a research infrastructure that embodies the long-term vision of making the language resources and tools from all over Europe accessible online. It is organised as a distributed network of centres, offering resources, services and domain specific knowledge.
 
@@ -76,7 +76,7 @@ Researchers from member countries have access to a number of services and opport
 
 - Search the CLARIN portal to find out whether your country is part of CLARIN, who is the National Coordinator, whether there are CLARIN centres near you.
 
-### Technical Infrastructure
+## Technical Infrastructure
 
 Before beginning, please watch the following video:
 
@@ -99,7 +99,7 @@ Exercises:
 - Explore the VLO (later  we will see how to search for lexical resources in the VLO) and the Content Search
 - Try to upload a short text in your language on to the [Switchboard](https://switchboard.clarin.eu/), to see what resources are available 
 
-### Knowledge Infrastructure
+## Knowledge Infrastructure
 
 The mission of the CLARIN Knowledge Infrastructure (KI) is to ensure that the knowledge and expertise available  within CLARIN do not exist as a fragmented collection of unconnected bits and pieces, but are made accessible in an organized way to the CLARIN community and to the Social Sciences and Humanities research community at large. We will not go into the details of the [CLARIN Knowledge Infrastructure](https://www.clarin.eu/content/knowledge-infrastructure). For more information see the relevant section of the CLARIN portal, but just provide the elements that are more relevant for the purposes of this course.
 
@@ -131,7 +131,7 @@ Exercises
 - Use the [keyword based search](https://vonweber.nl/cgi/kcentres_search.cgi) to find information on K-centres with expertise in your area
 - Search for online courses from your country in the [DH course registry](https://dhcr.clarin-dariah.eu/info)
 
-### CLARIN and FAIR, Open Data
+## CLARIN and FAIR, Open Data
 
 The [FAIR data principles](https://www.force11.org/group/fairgroup/fairprinciples) state that language resources, like all research data, have to be Findable, Accessible, Interoperable, Reusable. Even though CLARIN has been in existence for a longer period than the FAIR data principles themselves, the core values of CLARIN – facilitating the reuse of language data and tools for research – align very closely with FAIR. CLARIN was a FAIR case ‘avant la lettre’.
 
@@ -154,7 +154,7 @@ Exercises:
 - [Read on the CLARIN portal](https://www.clarin.eu/content/support-eu-funded-projects) how CLARIN can help you with your project and DMP
 - Learn more about FAIR data and Open Science in the course "Lexicography in the Age of Open Data" TODO: ADD LINK (Toma) 
 
-### Searching for resources and information in the CLARIN infrastructure
+## Searching for resources and information in the CLARIN infrastructure
 
 We have seen that the CLARIN [VLO](https://vlo.clarin.eu/) is a sort of meta catalogue that gives access to all resources from the various centres. Metadata from repositories in the CLARIN network are harvested on a weekly basis, so when a new resource is deposited in one of them, it will become almost immediately visible from the VLO. Note that different centres use different but interoperable metadata profiles. 
 
@@ -199,7 +199,7 @@ Finally, you can also explore the [Tour De CLARIN](https://www.clarin.eu/Tour-de
 - Open the pdf for volume 1 and search for "Dictionaries". What do you find?
 - What is the "Viennese Lexicographic Editor" ?
 
-### Depositing Services
+## Depositing Services
 
 As we have seen, in order to fully adhere to the principles of Open Science, your data must be deposited in a certified repository. To help researchers to store their resources (e.g. corpora, lexica, audio and video recordings, annotations, grammars, etc.) in a sustainable way, many of the CLARIN centres offer a depositing service. They are willing to store the resources in their repository and assist with the technical and organisational details. This has a wide range of advantages:
 
@@ -243,22 +243,22 @@ Once the lexical resource is deposited on the repository, it will become searcha
 
 Only when a lexical resource is downloadable in its source format, so that the user can perform any query on it, can it be considered fully open.
 
-## Using CLARIN Tools for lexicography
+# Using CLARIN Tools for lexicography
 
-### **The LexO-lite web editor: a quick tutorial for creating an Ontolex-compliant basic lexical resource**
+## **The LexO-lite web editor: a quick tutorial for creating an Ontolex-compliant basic lexical resource**
 
 LexO-lite (simply LexO from now on) is a collaborative web editor for easily building and managing lexical and terminological resources in the context of the Semantic Web. The adoption of Semantic Web technologies and the Linked Data paradigm is driven by the need to ensure the construction of resources that are interoperable, shareable and reusable by the scientific community. LexO's primary objective is to enable lexicographers, scholars and humanists to create a resource ex novo where information can be easily manually curated by humans, that is fundamental for collecting reliable, fine-grained, and explicit information. LexO attempts to make the OntoLex-Lemon model accessible to all those who do not have technical skills, allowing for the adoption of new technological advance in the Semantic Web by Digital Humanities. The tool allows for information to be easily manually curated by humans. LexO is a free and open source project and its source code can be downloaded from [here](https://github.com/andreabellandi/LexO-lite).
 
-#### **Installation**
+### **Installation**
 
 Users can compile and install LexO on their own machine, by following the instructions reported in [here](https://github.com/andreabellandi/LexO-lite/wiki/LexO%E2%80%90lite-Installation-Guide). This implies you will run the most recent version of the LexO code, which will not  necessarily be a stable version.
 
-#### **Current limitations**
+### **Current limitations**
 
 LexO is not a funded project. From the technological point of view, it is based on an open source Java library called OWL-API. However, a solution that implements a persistence strategy based on triple stores is more indicated for medium/large-sized data. For this reason, we called this tool version **LexO-lite**. The suffix lite refers to the limited ability to manage small-sized lexica, typically domain terminologies and specialized lexica. A full version of LexO that will be capable of managing large-scale resources in currently in progress.
 Please notify bugs or issues on the [project github page](https://github.com/andreabellandi/LexO-lite).
 
-#### **Tool description**
+### **Tool description**
 
 The main interface of LexO is depicted in the following figure. 
 
@@ -273,67 +273,46 @@ Since LexO allows users to create resources in a collaborative way, it defines t
 
 In the following, the functionalities of LexO will be described in detail, by means of video tutorials. 
 
-#### Video tutorials
+### Video tutorials
 
 **How to create LexO's users.**
 This video shows the management of the users' profiles.
 
 <Video provider="youtube" id="9KE0laMaTAs" />
 
-![](https://i.imgur.com/pgX79zX.png)
 
 **How to create lexicon languages.** 
 This video shows the languages creation process.
 
 <Video provider="youtube" id="GWaKk6ZEk14" />
 
-![](https://i.imgur.com/2PetnmC.png)
+
 
 **How to edit a core lexical entry.**
 
 This video shows the management of the core module
 <Video provider="youtube" id="YkKNCHiE4u0" />
 
-![](https://i.imgur.com/y4il8AU.png)
+
 
 **How to encode the denotation of a sense**
 
 <Video provider="youtube" id="IWvIWBz5S-8" />
 
-**How to edit relatons between lexical items** 
+**How to edit lexical and semantic relations between lexical items** 
 
 The following video will guide you through the encoding of lexical and semantic relations between items according to the OntoLex Variation and Translations module (_vartrans)_.
 
-![](https://i.imgur.com/EvhqlY7.png)
-![](https://i.imgur.com/YFnnQr4.png)
+<Video provider="youtube" id="lEHhkthTJq8" />
 
-**How to edit a lexical entry, referring to the OntoLex-Lemon _synsem_ module.** [Link](https://)
 
-The video shows the management of the syntax and semantics module
-
-![](https://i.imgur.com/eGMhSsx.png)
-
-**How to describe the semantics of a lexical entry.** [Link](https://)
-
-The video shows how to refer a lexical entry to an external ontology 
-
-![](https://i.imgur.com/zCPKgeR.png)
-
-![](https://i.imgur.com/XTe29ze.png)
-
-**The lexical entry dictionary view.** [Link](https://)
-
-The  video shows the dictionary-like view of LexO 
-
-![](https://i.imgur.com/emGHU9v.png)
-
-### &lt;TEI&gt;enricher
+## The &lt;TEI&gt;enricher tool
 
 A tool for quickly creating a dictionary in accordance with the Guidelines of the Text Encoding Initiative (TEI), ideally in the Lex-0 flavour.
 
 See the tutorial [here](https://howto.acdh-dev.oeaw.ac.at/de/resource/posts/a-very-concise-guide-to-creating-lexical-resources-with-%CB%82tei%CB%83enricher)
 
-## References
+# References
 
 - Andrea Bellandi (2021). LexO: An Open-source System for Managing OntoLex-Lemon Resources. _Language Resources & Evaluation_. https://doi.org/10.1007/s10579-021-09546-4.
 - Andrea Bellandi, Emiliano Giovannetti, Simone Marchi, Silvia Piccini, Flavia Sciolette (2021). Fostering the Collaborative Creation of Linguistic Linked Open Data with LexO, an Open Source Editor of Multilingual Lexicons and Terminologies. _Associazione per L'informatica Umanistica, Book of abstract_. http://amsacta.unibo.it/6712/1/AIUCD2021_BOA-versione3A.pdf
